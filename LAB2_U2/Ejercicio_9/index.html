@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- titulo de la pagina -->
+		<title>Conversor</title>
+		<link rel="stylesheet" href="CSS/Imagen.css">
+	</head>
+	<body>
+		<form>
+			<h2>Conversor de dolares</h2>
+			<!-- Espacio para la conversion de dolares a pesos -->
+			<div>
+				<label for="USDtoCLP">USD to CLP:</label>
+				<input type="number" id="USDCLP" name="dolarPesos">
+				<button type="button" onclick="USD()">Convertir USD</button><br><br>  
+				
+				<label for="USD">CLP</label><br>
+           			<input type="text" name ="dolarPesos" id="cambioD" ><br></br><br></br>
+
+			<div>
+			
+			<!-- Espacio para la conversion de pesos a dolares-->
+			<div>
+				<label for="CLPtoUSD">CLP to USD:</label>
+				<input type="number" id="CLPUSD" name="pesosDolar">
+				<button type="button" onclick="CLP()">Convertir CLP</button><br><br>  
+				
+				<label for="CLP">USD</label><br>
+           			<input type="text" name ="pesosDolar" id="cambioP" ><br>
+			</div>
+		</form>
+		
+		<!-- cargar archivo externo javascript. --> 
+		<script src="ejercicio_9.js"></script>
+	</body>
+</html>
+
+
